@@ -1,6 +1,6 @@
 node {
    stage('Build') {
-         git 'https://github.com/veereshwaran/catalogue/'
+         git 'https://github.com/appranix-demo/catalogue/'
          sh "echo build docker"
          sh "docker-compose build"
    }
